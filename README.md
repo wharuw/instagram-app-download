@@ -1,5 +1,9 @@
 # 유니릭스 뷰어 다운로드 페이지
 
+공개 페이지: https://wharuw.github.io/instagram-app-download/
+
+2026-11-21 GitHub Pages main/root 배포와 공개 HTTPS 페이지를 확인했습니다. Android/iPhone/PC 사용자 에이전트, 320·390·768·1024·1440px 가로 넘침, 복사 성공/권한 거부 대체 경로, 설정 누락/잘못된 ID 차단의 데스크톱 Chromium 검사를 통과했습니다. 실제 Android/iPhone Instagram 및 Safari 기기 동작은 미검증입니다.
+
 Instagram 프로필 → 이 페이지 → 사용자가 직접 스토어 버튼 클릭. 정적 HTML/CSS/JS이며 서버·프레임워크·외부 API·분석 도구·쿠키가 없습니다. 기존 앱의 실제 아이콘을 사용합니다.
 
 ## 설정과 실행
