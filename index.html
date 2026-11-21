@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko" data-type="software">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="page-type" content="software">
+  <meta name="site-kind" content="software">
+  <meta name="description" content="유니릭스 뷰어 다운로드. iPhone과 Android에서 HWP·HWPX·PDF 문서를 열어보세요.">
+  <meta name="referrer" content="no-referrer">
+  <title>유니릭스 뷰어 다운로드</title>
+  <link rel="icon" href="app-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="config.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+<main>
+  <header><span>UNILABRIX</span><span>앱 다운로드</span></header>
+  <section aria-labelledby="app-title">
+    <img class="app-icon" src="app-icon.png" width="88" height="88" alt="유니릭스 뷰어 앱 아이콘">
+    <p class="eyebrow">HWP · HWPX · PDF</p>
+    <h1 id="app-title">유니릭스 뷰어</h1>
+    <p class="intro">필요한 문서, 어디서나 간편하게.<br>지금 앱을 다운로드하세요.</p>
+    <p id="config-error" role="alert" hidden>다운로드 정보를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.</p>
+    <div id="downloads" class="downloads" hidden>
+      <article id="android" aria-label="Android 다운로드">
+        <a class="download" id="android-link"><span><small>Android</small>Google Play에서 다운로드</span><span aria-hidden="true">↗</span></a>
+        <button class="copy" data-platform="android" type="button">Google Play 주소 복사</button>
+      </article>
+      <article id="ios" aria-label="iPhone 및 iPad 다운로드">
+        <a class="download" id="ios-link"><span><small>iPhone · iPad</small>App Store에서 다운로드</span><span aria-hidden="true">↗</span></a>
+        <button class="copy" data-platform="ios" type="button">App Store 주소 복사</button>
+      </article>
+    </div>
+    <p id="copy-status" role="status" aria-live="polite"></p>
+    <div id="manual-copy" hidden>
+      <label for="store-url">다운로드 주소를 길게 눌러 복사하세요.</label>
+      <textarea id="store-url" readonly rows="3" spellcheck="false"></textarea>
+    </div>
+    <aside aria-labelledby="help-title">
+      <h2 id="help-title">스토어가 열리지 않나요?</h2>
+      <p>Instagram 화면의 메뉴에서 <strong>외부 브라우저에서 열기</strong>를 찾아보세요. 메뉴가 없다면 주소를 복사해 Android는 Chrome, iPhone은 Safari 주소창에 붙여넣으세요.</p>
+      <p class="quiet">브라우저로 돌아오면 다운로드 버튼을 다시 누를 수 있습니다. 메뉴 이름은 앱 버전에 따라 다를 수 있습니다.</p>
+    </aside>
+    <noscript><p>다운로드 버튼을 표시하려면 JavaScript를 켜주세요.</p></noscript>
+  </section>
+  <footer>© <span id="year">2026</span> UNILABRIX <span>문서와 함께하는 일상</span></footer>
+</main>
+</body>
+</html>
