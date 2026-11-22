@@ -28,3 +28,5 @@ aside p{font-size:14px;line-height:1.85;margin:0 0 12px;color:#506379}.quiet{fon
 footer{border-top:1px solid #d8e0e9;padding:20px 0 28px;display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:11px;color:#586b80}
 .footer-brand{display:flex;flex-direction:column;gap:4px;text-align:left}
 @media(min-width:768px){section{padding-top:56px}header{padding-top:38px}}
+
+#view-count{height:20px;width:auto;opacity:.35;flex-shrink:0}

@@ -32,3 +32,7 @@ Settings → Pages → Build and deployment → Deploy from a branch → main �
 데스크톱 Chromium에서 모바일 크기·OS별 버튼 순서·HTTPS 링크·복사 성공/실패·설정 오류·가로 넘침·키보드 포커스를 자동 검사합니다. 에뮬레이션은 실기기 검증이 아닙니다.
 
 배포 후 실제 Android Instagram에서 프로필 링크 → 페이지 → Google Play 버튼을 확인하세요. 실패하면 주소 복사 → Chrome 붙여넣기로 스토어 이동을 확인하세요. iPhone Safari/Instagram에서도 App Store 이동을 확인해야 합니다. 실기기 결과는 확인 전까지 미검증입니다.
+
+## 하단 조회수
+
+하단 오른쪽은 Hits(hits.sh)의 누적 요청 수를 숫자만 표시합니다. GitHub Pages의 실제 주소에서만 요청하며 개발·로컬 검사는 집계하지 않습니다. 새로고침·봇·캐시 등에 영향을 받으므로 고유 방문자 수나 설치 수가 아닙니다. 연결 시점부터 집계하며 이전 방문 기록을 복원하지 않습니다. 외부 이미지 요청이 실패하면 숫자는 숨깁니다. 쿠키·별도 추적 스크립트·API 키를 추가하지 않습니다. 서비스 안내: https://github.com/silentsoft/hits / https://hits.sh/privacy/ .

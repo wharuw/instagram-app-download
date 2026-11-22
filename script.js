@@ -1,4 +1,10 @@
 (() => {
+  const count = document.getElementById('view-count');
+  if (count && location.hostname === 'wharuw.github.io') {
+    count.addEventListener('load', () => { count.hidden = false; }, {once:true});
+    count.addEventListener('error', () => { count.hidden = true; }, {once:true});
+    count.src = count.dataset.src;
+  }
   const config = window.APP_CONFIG;
   const error = document.getElementById('config-error');
   if (!config || typeof config.appName !== 'string' || !config.appName.trim() ||
